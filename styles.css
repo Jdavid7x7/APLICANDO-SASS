@@ -1,0 +1,115 @@
+body {
+  color: rgba(255, 239, 213, 0.541);
+  background-color: rgba(255, 239, 213, 0.541);
+}
+
+.logo {
+  background-color: rgba(145, 71, 123, 0.39);
+  padding: 10px 15px 10px;
+  width: 100%;
+}
+
+.imglogo {
+  padding: 10px 10px;
+  border-radius: 75px;
+  height: 120px;
+  border: solid 1.5px rgba(255, 239, 213, 0.541);
+}
+
+.content {
+  background-color: rgba(151, 151, 133, 0.123);
+  padding: 20px 1px;
+  width: 100%;
+  color: rgba(145, 71, 123, 0.39);
+}
+
+.item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 60px;
+  margin: 40px;
+  height: 250px;
+  border: 1.1px solid rgba(255, 239, 213, 0.541);
+  text-align: center;
+  border-radius: 6.5px;
+}
+
+.item:hover {
+  transform: scale(1.1);
+  transition: all 1.4s;
+  box-shadow: 2px 5px 5px 5px rgba(121, 118, 118, 0.397);
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 20px;
+  color: rgba(145, 71, 123, 0.39);
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 370px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+h1 {
+  color: rgba(145, 71, 123, 0.39);
+  font-size: verdana;
+  font-size: 45px;
+  text-align: center;
+}
+
+.item1 {
+  background-image: url(/images/Foto\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item2 {
+  background-image: url(/images/Foto\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item3 {
+  background-image: url(/images/Foto\ 4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item4 {
+  background-image: url(/images/Foto\ 5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item5 {
+  background-image: url(/images/foto\ 7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item6 {
+  background-image: url(/images/foto\ 8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  color: rgba(145, 71, 123, 0.39);
+  font-size: verdana;
+}
+
+/*# sourceMappingURL=styles.css.map */
